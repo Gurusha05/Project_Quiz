@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+    <div class="start_btn"><button>START QUIZ</button></div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>SOME RULES OF THE QUIZ</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. YOU WILL ONLY HAVE <span>15 SECONDS</span> PER EACH QUESTION.</div>
+            <div class="info">2. YOU CAN ONLY CHOOSE ONE OF THE OPTIONS.</div>
+            <div class="info">3. YOU CAN'T SELECT ANY OPTION ONCE TIME GOES OFF.</div>
+            <div class="info">4. YOU CAN'T EXIT THE QUIZ WHILE YOU ARE PLAYING.</div>
+            <div class="info">5. YOU WILL GET POINTS ON THE BASIS OF YOUR CORRECT ANSWERS</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">EXIT QUIZ </button>
+            <button class="restart">CONTINUE</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">QUIZ APPLICATION</div>
+            <div class="timer">
+                <div class="time_text">TIME LEFT</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="ques_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_ques">
+            </div>
+            <button class="next_btn">NEXT QUESTION</button>
+        </footer>
+
+    </div>
+
+    <div class="result_box">
+        <div class="complete_text">
+            <span>CONGRATULATIONS!!</span><p>YOU HAVE COMPLETED THE QUIZ</p> 
+        </div>
+        <div class="score_text">
+            <span>AND SORRY, YOU GOT ONLY <p>2</p>OUT OF<p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">REPLAY</button>
+            <button class="quit">QUIT</button>
+        </div>
+
+        <script src="main.js"></script>
+        <script src= "question.js"></script>
+    </div>
+</body>
+</html>
